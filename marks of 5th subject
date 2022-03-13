@@ -1,0 +1,7 @@
+#score in order to get 82% while marks of 4 subjects are given by user.
+a=int(input("Enter the marks of 1st subject:-"))
+b=int(input("Enter the marks of 2nd subject:-"))
+c=int(input("Enter the marks of 3rd subject:-"))
+d=int(input("Enter the marks of 4th subject:-"))
+e=410-(a+b+c+d)
+print("the marks of the 5th subject should be ",e)
