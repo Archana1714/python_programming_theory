@@ -1,0 +1,9 @@
+#Python program to find the real& different roots of any quadratic equation in which value a,b,c
+#are given by user.i.e.(a=2,b=6,c=1)
+a=int(input("Enter the value of a: "))
+b=int(input("Enter the value of b: "))
+c=int(input("Enter the value of c: "))
+root1=float(-b+((b*b)-(4*a*c))**(1/2))/(2*a)
+print(root1)
+root2=float(-b-((b*b)-(4*a*c))**(1/2))/(2*a)
+print(root2)
