@@ -1,0 +1,6 @@
+#Python program to find the volume of cylinder.
+pie=3.14
+r=float(input("Enter the radius of the cylinder:-"))
+h=float(input("Enter the height of the cylinder:-"))
+vol=pie*r*r*h
+print("Volume of the cylinder is ",vol)
