@@ -1,0 +1,8 @@
+#Pyhton program to concatinate two strings taken from user and also find the type.
+a=input("Enter a string:")
+print(type(a))
+b=input("Enter another string:")
+print(type(b))
+c=a+b
+print(c)
+print(type(c))
