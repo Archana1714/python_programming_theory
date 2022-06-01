@@ -1,0 +1,13 @@
+def test(d):
+  return max(d, key = d.get), min(d, key = d.get)
+
+students = {
+  'Lily': 19,
+  'Lili': 22,
+  'Mili': 21,
+  'Mily': 20
+}
+print("\nOriginal dictionary elements:")
+print(students)
+print("\nFinds the key of the maximum and minimum value of the said dictionary:")
+print(test(students))
