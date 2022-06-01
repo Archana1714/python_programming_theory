@@ -1,0 +1,15 @@
+def test(lst):
+    result =  map(sum, lst)
+    return list(result)
+
+nums = [(1,2), (2,3), (3,4)]
+print("Original list of tuples:")
+print(nums)
+print("\nSum of all the elements of each tuple stored inside the said list of tuples:")
+print(test(nums))
+
+nums = [(1,2,6), (2,3,-6), (3,4), (2,2,2,2)]
+print("\nOriginal list of tuples:")
+print(nums)
+print("\nSum of all the elements of each tuple stored inside the said list of tuples:")
+print(test(nums))
