@@ -1,6 +1,6 @@
 # sample Dictionaries
 dic1 = {"A": 1, "B": 2, "C": 3} 
-dic2 = {"T1": "Raju", "T2": "Nikhil", "T3": "Deepanshu"}
+dic2 = {"T1": "Archana", "T2": "Tannu", "T3": "Channu"}
 dic3 = {1: "Lion", 2: "Tiger", 3: "Fox", 4: "Wolf"}
   
 # print the sizes of sample Dictionaries
