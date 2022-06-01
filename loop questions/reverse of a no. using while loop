@@ -1,0 +1,8 @@
+#Python program to revese a no. using while loop.
+i=int(input("Enter a number:-"))
+rev=0
+while(i>0):
+    rem=i%10
+    rev=(rev*10)+rem
+    i=i//10
+print("the number after reversing be like ",rev)
