@@ -1,0 +1,15 @@
+f=open("abc.txt",'r')
+text=f.read()
+count_tab=0
+count-space=0
+count_newline=0
+for char in text:
+  if (char=='\t'):
+    count_tab+=1
+  if(char==' '):
+    count_space+=1
+  if(char=='\n'):
+    count_newline+=1
+print("Total no. of tabs=",count_tab)
+print("Total no. of space=",count_space)
+print("total no. of newline=",count_newline)
