@@ -1,0 +1,12 @@
+f=open("abc.txt",'r')
+text=f.read()
+count_uppercase=0
+count_lowercase=0
+for i in text:
+    if i.isupper():
+        count_uppercase+=1
+    if i.islower():
+        count_lowercase+=1
+    print("total no. of uppercase= ",count_uppercase)
+    print("total no. of lowercase= ",count_lowercase)
+    f.close()
