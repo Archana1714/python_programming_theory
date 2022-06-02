@@ -1,0 +1,9 @@
+T1 = (12, 15, 18, 21, 24, 27, 30)
+el = int(input("Enter the element to be removed : "))
+if el in T1:
+     L = list(T1)
+     L.remove(el)
+     T1 = tuple(L)
+     print(T1)
+else:
+     print("Element not found")
