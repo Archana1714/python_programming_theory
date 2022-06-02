@@ -1,0 +1,6 @@
+T1 = (1, 2, 3, 'A', 'B', 4, 'Sun')
+s = 0
+for i in T1:
+     if str(i).isdigit( ):
+         s = s + i
+print("Sum is = ",s)
