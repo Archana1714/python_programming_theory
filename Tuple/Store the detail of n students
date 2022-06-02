@@ -1,0 +1,10 @@
+Det = ()
+tmp=()
+n=int(input("Enter Number of Students"))
+for i in range(n):
+     rn = int(input("Enter Roll number : "))
+     nm = input("Enter name of student : ")
+     sec = input("Enter Section of student : ")
+     tmp = (rn, nm, sec)
+     Det=Det + (tmp,)
+print(Det)
