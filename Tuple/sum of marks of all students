@@ -1,0 +1,5 @@
+T1 = (("Suman",75), ("Glory" , 35), ("Ravi",50))
+s = 0
+for i in T1:
+     s = s + i[1]
+print("Sum of marks = ",s)
