@@ -1,0 +1,4 @@
+T1 = ["Amit", "Ram", "Esha", "Harry"]
+for i in T1:
+     if i[0] in ("aeiouAEIOU"):
+         print(i)
