@@ -1,0 +1,3 @@
+T1 = ["Amit", "Ram", "Esha", "Harry"]
+for i in T1:
+     print(len(i),end=", ")
