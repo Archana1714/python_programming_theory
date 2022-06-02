@@ -1,0 +1,13 @@
+def Sum(dic):
+    #sum variable
+    sum=0
+    #iterate through values
+    for i in dic.values():
+        sum=sum+i
+    return sum
+
+dic={ 'x':30, 'y':145, 'z':55 }
+
+print("Dictionary: ", dic)
+
+print("sum: ",Sum(dic))
