@@ -1,0 +1,10 @@
+Det=((1, 'Amita', 'B'), (2, 'Sunita', 'C'), (3, 'Daya', 'A'))
+rn = int(input("Enter Roll number : "))
+k=0
+for i in range(3):
+     if rn==Det[i][0]:
+         print(Det[i])
+         k=1
+         break
+if k==0:
+     print("Record not found")
