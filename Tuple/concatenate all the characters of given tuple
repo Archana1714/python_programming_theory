@@ -1,0 +1,15 @@
+#method-1 
+T1 =('B' , 'O', 'O', 'K')
+st = ""
+for i in T1:
+     st = st + i
+print(st)
+
+
+#method-2
+T1 =('B' , 'O', 'O', 'K')
+st = "".join(T1)
+print(st)
+
+
+#OUTPUT- BOOK
